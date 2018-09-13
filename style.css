@@ -96,9 +96,6 @@ wrapper{
 * {
     box-sizing: border-box;
 }
-body{
-    color: black;
-}
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -178,5 +175,7 @@ th,tr {
         margin-top: 0;
     }
 }
-
+.marge10{
+    margin: 0% 10%;
+}
 /* Adding Gallery style here. */
