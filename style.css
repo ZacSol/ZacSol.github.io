@@ -58,6 +58,9 @@ textarea {
     font-size: 16px;
     resize: none;
 }
+wrapper{
+    position: relative;
+}
 .floating{
     float: left;
 }
@@ -80,6 +83,7 @@ textarea {
     padding: 0% 1%;
     width: fit-content;
     margin: auto;
+    margin-bottom: 8px;
 }
 .borderfit, .textbox, .profile{
     color: white;
