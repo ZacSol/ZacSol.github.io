@@ -126,11 +126,11 @@ table {
     border-collapse: collapse;
     table-layout: auto;
     width: 100%;
+    text-align: center;
 }
 
 th,tr {
     /* border: 1px solid #dddddd; */
-    text-align: left;
     padding: 8px;
     top: 0px;
     width: auto;
@@ -175,6 +175,10 @@ th,tr {
     }
 }
 .marge10{
-    margin: 0% 10%;
+    width: 80%
 }
 /* Adding Gallery style here. */
+.projectimg{
+    width: 300px;
+    /* margin: 20px 30px; */
+}
