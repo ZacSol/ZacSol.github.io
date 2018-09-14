@@ -2,7 +2,6 @@ body{
     margin-top: 0px;
     color: white;
     text-align: center;
-    /* background: url("./images/working-internet-technology-239898.jpg") no-repeat; */
     background-color: black;
 }
 body::after {
@@ -58,6 +57,9 @@ textarea {
     font-size: 16px;
     resize: none;
 }
+wrapper{
+    position: relative;
+}
 .floating{
     float: left;
 }
@@ -80,6 +82,7 @@ textarea {
     padding: 0% 1%;
     width: fit-content;
     margin: auto;
+    margin-bottom: 8px;
 }
 .borderfit, .textbox, .profile{
     color: white;
@@ -91,9 +94,6 @@ textarea {
 /* Added the Contact style here. */
 * {
     box-sizing: border-box;
-}
-body{
-    color: black;
 }
 input[type=text], select, textarea {
     width: 100%;
@@ -126,11 +126,11 @@ table {
     border-collapse: collapse;
     table-layout: auto;
     width: 100%;
+    text-align: center;
 }
 
 th,tr {
     /* border: 1px solid #dddddd; */
-    text-align: left;
     padding: 8px;
     top: 0px;
     width: auto;
@@ -174,5 +174,11 @@ th,tr {
         margin-top: 0;
     }
 }
-
+.marge10{
+    width: 80%
+}
 /* Adding Gallery style here. */
+.projectimg{
+    width: 300px;
+    /* margin: 20px 30px; */
+}
