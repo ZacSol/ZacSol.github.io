@@ -3,9 +3,3 @@
     height: 45px;
     border: solid 1px white;
 }
-button{
-    position: fixed;
-    top: 0px;
-    /* right: 0px; */
-    float: right;
-}
