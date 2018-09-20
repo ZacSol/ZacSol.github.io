@@ -1,53 +1,8 @@
 * {
     box-sizing: border-box;
 }
-body{
-    margin-top: 0px;
-    color: white;
-    text-align: center;
-    background-color: black;
-}
-body::after {
-    background: url(./images/working-internet-technology-239898.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    opacity: 0.25;
-    width: 100%;
-    height: 725px;
-    top: 0;
-    left: 0;
-    position: absolute;
-    z-index: -1;
-    content: "";
-  }
-button{
-    background-color: #32CD32;
-    border: none;
-    color: white;
-    padding: 5px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px;
-    border-radius: 25px;
-    cursor: pointer;
-    float: right;
-}
-h2 {
-    margin: 15px 15px 5px;
-    color:yellow
-}
-p{
-    text-indent: 3%;
-    padding: 0% 5%;
-}
-ul{
-    padding: 0px;
-}
-li {
-    list-style-type: circle;
-    list-style-position: inside;  
+body::after{
+    height: 100vh;
 }
 textarea {
     width: 60%;
@@ -59,9 +14,6 @@ textarea {
     background-color: #f8f8f8;
     font-size: 16px;
     resize: none;
-}
-wrapper{
-    position: relative;
 }
 .floating{
     float: left;
@@ -75,27 +27,6 @@ wrapper{
 .profile{
     margin: 1%;
 }
-.noindent{
-    text-indent: 0%
-}
-.textbox{
-    margin: auto;
-}
-.borderfit{
-    padding: 0% 1%;
-    width: fit-content;
-    margin: auto;
-    margin-bottom: 8px;
-}
-.borderfit, .textbox, .profile{
-    color: white;
-    border: double #32CD32;
-    border-radius: 25px;
-    background-color: black;
-}
-
-/* Added the Contact style here. */
-
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -174,12 +105,7 @@ th,tr {
         width: 100%;
         margin-top: 0;
     }
-}
-.marge10{
-    width: 80%
-}
-/* Adding Gallery style here. */
-.projectimg{
-    width: 300px;
-    /* margin: 20px 30px; */
+    .container{
+        margin: 10%;
+    }
 }

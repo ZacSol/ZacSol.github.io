@@ -1,0 +1,90 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    margin-top: 0px;
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+body::after {
+    background: url(../working-internet-technology-239898.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    opacity: 0.25;
+    width: 100%;
+    height: 1380px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+    content: "";
+  }
+button{
+    font-family: 'Oswald', sans-serif;
+    background-color: #32CD32;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px;
+    border-radius: 25px;
+    cursor: pointer;
+    float: right;
+}
+h2 {
+    margin: 15px 15px 5px;
+    color:yellow
+}
+p{
+    text-indent: 3%;
+    padding: 0% 5%;
+}
+ul{
+    padding: 0px;
+}
+li {
+    list-style-type: circle;
+    list-style-position: inside;  
+}
+.container{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.borderfit, .textbox, .profile{
+    color: white;
+    border: double #32CD32;
+    border-radius: 25px;
+    background-color: black;
+    margin: auto;
+}
+.textbox{
+    margin: 0px 5%;
+}
+.noindent{
+    text-indent: 0%
+}
+
+.borderfit{
+    padding: 0% 1%;
+    width: fit-content;
+    margin-bottom: 8px;
+}
+#myname{
+    margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+    body::after {
+        height: 1024px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    body{
+        font-size: 1.5rem;
+    }
+    body::after {
+        height: 1366px;
+    }
+}
