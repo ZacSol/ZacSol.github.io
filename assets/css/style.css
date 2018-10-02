@@ -4,20 +4,27 @@ body{
     color: white;
     text-align: center;
     background-color: black;
-}
-body::after {
     background: url(../images/working-internet-technology-239898.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    opacity: 0.25;
     width: 100%;
-    height: 1380px;
+    height: 100%;
     top: 0;
     left: 0;
     position: absolute;
+}
+
+  #blackBox{
+    background-color: black;
+    opacity: 0.5;
+    height:100%;
+    width:100%;
+    position: fixed;
     z-index: -1;
-    content: "";
+    float:left;
+    margin:0px;
   }
+
 button{
     font-family: 'Oswald', sans-serif;
     background-color: #32CD32;
