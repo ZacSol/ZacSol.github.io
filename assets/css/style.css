@@ -24,7 +24,6 @@ body{
     float:left;
     margin:0px;
   }
-
 button{
     font-family: 'Oswald', sans-serif;
     background-color: #32CD32;
@@ -44,6 +43,10 @@ h2 {
     margin: 15px 15px 5px;
     color:yellow
 }
+h3{
+    font-family: 'Righteous', cursive;
+
+}
 p{
     text-indent: 3%;
     padding: 0% 5%;
@@ -59,7 +62,7 @@ li {
     padding-left: 0px;
     padding-right: 0px;
 }
-.borderfit, .textbox, .profile{
+img, .borderfit, .textbox, .profile{
     color: white;
     border: double #32CD32;
     border-radius: 25px;
