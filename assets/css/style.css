@@ -6,7 +6,7 @@ body{
     background-color: black;
 }
 body::after {
-    background: url(../working-internet-technology-239898.jpg);
+    background: url(../images/working-internet-technology-239898.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     opacity: 0.25;
