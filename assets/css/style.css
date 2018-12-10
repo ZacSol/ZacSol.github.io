@@ -68,6 +68,7 @@ img, .borderfit, .textbox, .profile{
 .container{
     padding-left: 0px;
     padding-right: 0px;
+    margin-top: 25px;
 }
 .textbox{
     margin: 0px 5%;
@@ -76,9 +77,8 @@ img, .borderfit, .textbox, .profile{
     text-indent: 0%
 }
 .projectImg{
-    max-width: 246px;
-    max-height: 246px;
-    margin-top: 25px;
+    width: 246px;
+    height: 246px;
 }
 .borderfit{
     padding: 0% 1%;
