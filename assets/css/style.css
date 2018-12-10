@@ -58,10 +58,6 @@ li {
     list-style-type: circle;
     list-style-position: inside;  
 }
-.container{
-    padding-left: 0px;
-    padding-right: 0px;
-}
 img, .borderfit, .textbox, .profile{
     color: white;
     border: double #32CD32;
@@ -69,17 +65,24 @@ img, .borderfit, .textbox, .profile{
     background-color: black;
     margin: auto;
 }
+.container{
+    padding-left: 0px;
+    padding-right: 0px;
+}
 .textbox{
     margin: 0px 5%;
 }
 .noindent{
     text-indent: 0%
 }
-
+.projectImg{
+    max-width: 246px;
+    max-height: 246px;
+    margin-top: 25px;
+}
 .borderfit{
     padding: 0% 1%;
     width: fit-content;
-    margin-bottom: 8px;
 }
 #myname{
     margin: 0px;
