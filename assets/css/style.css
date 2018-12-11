@@ -53,6 +53,7 @@ img, .borderfit, .textbox, .profile{
 .container{
     padding-left: 0px;
     padding-right: 0px;
+    width: 100vw;
 }
 .textbox{
     margin: 0px 5%;
@@ -80,7 +81,7 @@ img, .borderfit, .textbox, .profile{
     align-content: center;
 }
 .fullWide{
-    width: 100%;
+    width: 100vw;
     margin: 0px;
 }
 .title{
@@ -121,4 +122,5 @@ img, .borderfit, .textbox, .profile{
 }
 #galleryContainer{
     padding-top: 41px;
+    width: 100vw;
 }
