@@ -90,7 +90,8 @@ img, .borderfit, .textbox, .profile{
     text-align: center;
 }
 .row{
-    width: 100vw;
+    width: 100%;
+    margin: 0px;
 }
 
 /* IDs */
