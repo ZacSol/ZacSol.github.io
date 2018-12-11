@@ -28,11 +28,11 @@ h2 {
 }
 h3{
     font-family: 'Righteous', cursive;
+
 }
 p{
     text-indent: 3%;
     padding: 0% 5%;
-    font-size: 1.2rem;
 }
 ul{
     padding: 0px;
@@ -53,8 +53,6 @@ img, .borderfit, .textbox, .profile{
 .container{
     padding-left: 0px;
     padding-right: 0px;
-    margin: 0px;
-    width: 100vw;
 }
 .textbox{
     margin: 0px 5%;
@@ -97,8 +95,8 @@ img, .borderfit, .textbox, .profile{
 #blackBox{
   background-color: black;
   opacity: 0.5;
-  height:100vh;
-  width:100vw;
+  height:100%;
+  width:100%;
   position: fixed;
   z-index: -1;
   margin:0px;
@@ -119,7 +117,7 @@ img, .borderfit, .textbox, .profile{
 
 } */
 #indexContainer{
-    padding-top: 16px;
+    margin-top: 16px;
 }
 #galleryContainer{
     padding-top: 41px;
