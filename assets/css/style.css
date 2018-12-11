@@ -89,12 +89,33 @@ img, .borderfit, .textbox, .profile{
 }
 
 /* IDs */
-  #blackBox{
-    background-color: black;
-    opacity: 0.5;
-    height:100%;
-    width:100%;
+#blackBox{
+  background-color: black;
+  opacity: 0.5;
+  height:100%;
+  width:100%;
+  position: fixed;
+  z-index: -1;
+  margin:0px;
+}
+#aboutBtn,#contactBtn,#galleryBtn{
     position: fixed;
-    z-index: -1;
-    margin:0px;
-  }
+    top: 0px;
+    z-index: 50;
+    right: 0px;
+}
+#aboutBtn{
+    right: 139px;
+}
+#contactBtn{
+    right: 72px;
+}
+/* #galleryBtn{
+
+} */
+#indexContainer{
+    margin-top: 16px;
+}
+#galleryContainer{
+    margin-top: 41px;
+}
