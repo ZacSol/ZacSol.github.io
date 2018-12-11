@@ -87,6 +87,9 @@ img, .borderfit, .textbox, .profile{
     margin: auto;
     text-align: center;
 }
+.row{
+    width: 100vw;
+}
 
 /* IDs */
 #blackBox{
