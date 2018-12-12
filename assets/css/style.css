@@ -111,11 +111,11 @@ img, .borderfit, .textbox, .profile{
     right: 0px;
 }
 #aboutBtn{
-    right: 139px;
+    right: 73px;
 }
-#contactBtn{
-    right: 72px;
-}
+/* #contactBtn{
+    right: 73px;
+} */
 /* #galleryBtn{
 
 } */
