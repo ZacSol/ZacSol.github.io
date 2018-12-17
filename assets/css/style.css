@@ -50,6 +50,9 @@ img, .borderfit, .textbox, .profile{
 }
 
 /* Classes */
+.profile{
+    max-width: 230px;
+}
 .container{
     padding-left: 0px;
     padding-right: 0px;
